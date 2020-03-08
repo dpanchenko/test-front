@@ -4,7 +4,7 @@ import { Table } from 'antd';
 import moment from 'moment';
 import { CommentOutlined } from '@ant-design/icons';
 
-import ActionButton from '../../components/ActionButton';
+import ActionButton from './ActionButton';
 import { ITEMS_PER_PAGE } from '../../constants';
 
 class ListTable extends PureComponent {
