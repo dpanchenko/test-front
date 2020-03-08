@@ -1,0 +1,168 @@
+/* ANTD Style fixes */
+.ant-btn .anticon {
+  margin-right: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.min-100vh {
+  min-height: 100vh;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.ant-page-header {
+  border-top: 1px solid #e8e8e8;
+  background: #fff;
+}
+
+.ant-layout-footer {
+  height: 70px;
+}
+
+.loginform {
+  height: calc(100vh - 70px);
+}
+
+.sidebar {
+  border-top: 1px solid #e8e8e8;
+}
+
+.header {
+  background-color: #fff;
+
+  h2 {
+    margin: 13px;
+    float: left;
+  }
+}
+
+.header-menu {
+  line-height: 64px;
+  float: right;
+}
+
+.container {
+  padding: 16px 32px;
+}
+
+.table-action-buttons {
+  text-align: right;
+}
+
+.table-action-buttons > * {
+  margin-left: 8px;
+}
+
+/* Disabled alert button for customer status */
+.status-label {
+  cursor: default;
+  pointer-events: none;
+}
+
+/* Button additional themes */
+.ant-btn-info {
+  background-color: #91d5ff;
+  border: 1px solid #91d5ff;
+  &:hover, &:focus {
+    background-color: lighten(#91d5ff, 5%);
+    border-color: lighten(#91d5ff, 5%);
+    color: rgba(0,0,0,0.65);
+  }
+}
+
+.ant-btn-success {
+  background-color: #b7eb8f;
+  border: 1px solid #b7eb8f;
+  &:hover, &:focus {
+    background-color: lighten(#b7eb8f, 5%);
+    border-color: lighten(#b7eb8f, 5%);
+    color: rgba(0,0,0,0.65);
+  }
+}
+
+.ant-btn-warning {
+  background-color: #ffe58f;
+  border: 1px solid #ffe58f;
+  &:hover, &:focus {
+    background-color: lighten(#ffe58f, 5%);
+    border-color: lighten(#ffe58f, 5%);
+    color: rgba(0,0,0,0.65);
+  }
+}
+
+.ant-btn-secondary {
+  color: #383d41;
+  background-color: #d6d8db;
+  border-color: #d6d8db;
+  &:hover, &:focus {
+    background-color: lighten(#d6d8db, 5%);
+    border-color: lighten(#d6d8db, 5%);
+    color: rgba(0,0,0,0.65);
+  }
+}
+
+/* Table styles */
+.ant-table-tbody > tr {
+  background-color: #fff;
+}
+
+.case-table-row {
+  cursor: pointer;
+}
+
+/* List */
+.pre-wrapped {
+  white-space: pre-wrap;
+}
+
+
+/* Modal Close */
+.ant-modal-close {
+  top: 5px;
+  right: 5px;
+}
+.ant-modal-close-x {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  background-color: #fff;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Form */
+.ant-form {
+  padding: 0 2px;
+}
+
+/* Side Menu */
+.side-menu {
+  height: 100%;
+}
+
+.cardItemTitle {
+  margin-right: 10px;
+}
+
+.cardItemValue {
+  font-weight: bold;
+}
+
+.cardItem {
+  margin: 10px;
+}
+
+.formBlockItem {
+  padding: 15px;
+}
+
